@@ -1,5 +1,17 @@
+///////////////////////////////////////////////////////////////////////////////
+///         University of Hawaii, College of Engineering
+/// @brief  Final Exam - EE 205 - Spr 2022
+///
+/// @file main.cpp
+/// @version 1.0
+///
+/// @author Kai Matsusaka <kairem@hawaii.edu>
+/// @date   13_May_2022
+///////////////////////////////////////////////////////////////////////////////
+
 #include <iostream>
 #include "Square.h"
+
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
