@@ -2,6 +2,8 @@
 // Created by Kai Matsusaka on 5/13/22.
 //
 
+#pragma once
+
 #include "Shape.h"
 
 class Rectangle : public Shape {
