@@ -16,6 +16,7 @@
 
 class Shape {   /// Abstract Class from which shapes can be made
 
+public:
     virtual double compute_area() const noexcept=0; /// All shapes have area
 
 };
