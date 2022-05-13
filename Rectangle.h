@@ -24,13 +24,12 @@ protected:
 
 //////////////////// Constructor ////////////////////
 public:
-    Rectangle(double newLength, double newWidth);
+    Rectangle( double newLength, double newWidth );
 
 
 //////////////////// Getters ////////////////////
 public:
     double getWidth() const noexcept;
-
     double getLength() const noexcept;
 
 

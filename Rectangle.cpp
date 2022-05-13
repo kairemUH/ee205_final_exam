@@ -14,7 +14,7 @@
 
 //////////////////// Constructor ////////////////////
 
-Rectangle::Rectangle(double newLength, double newWidth) {
+Rectangle::Rectangle( double newLength, double newWidth ) {
 
     if( newLength <= 0 || newWidth <= 0 ) {
         throw std::invalid_argument( "length and width must be > 0." );

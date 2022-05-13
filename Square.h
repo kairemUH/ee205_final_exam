@@ -14,7 +14,7 @@
 #include "Rectangle.h"
 
 
-class Square : public Rectangle {
+class Square : public Rectangle {   /// A square is a rectangle but a rectangle isn't a square!
 
 //////////////////// Constructor ////////////////////
 public:

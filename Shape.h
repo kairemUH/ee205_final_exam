@@ -14,8 +14,8 @@
 #include <iostream>
 
 
-class Shape {
+class Shape {   /// Abstract Class from which shapes can be made
 
-    virtual double compute_area() const noexcept=0; //public vitual abstract method that will be declared in future shapes
+    virtual double compute_area() const noexcept=0; /// All shapes have area
 
 };
